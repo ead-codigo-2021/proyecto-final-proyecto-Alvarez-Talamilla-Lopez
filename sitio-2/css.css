@@ -47,6 +47,14 @@ body{
     
 }
 
+.header-alert{
+    grid-area: alert;
+    background: #FFF135;
+    color: #00c4cc;
+    padding: .5rem;
+    text-align: center;
+}
+
 .head{
     padding: 0;
     height: 100%;
