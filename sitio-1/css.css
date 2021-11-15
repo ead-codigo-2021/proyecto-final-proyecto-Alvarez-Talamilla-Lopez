@@ -23,13 +23,11 @@ body{
 
 .contenedor-head > img{
     width: 75%;
-    object-fit: conver;
     margin-top: 20px;
-    position: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    position: center;;
+    padding: 20px 30px;
+    
 }
-
 
 .contenedor{
     width: 90%;
@@ -45,6 +43,14 @@ body{
     background-position: center;
     background-size: cover;
     
+}
+
+.header-alert{
+    grid-area: alert;
+    background: rgb(102, 164, 236);
+    color: white;
+    padding: .5rem;
+    text-align: center;
 }
 
 .head{
@@ -110,6 +116,44 @@ nav > a:hover{
 }
 
 /* Services */
+
+.nosotros{
+    color:#00c4cc ;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 100;
+    margin: 80px 40px;
+    margin-top: 150px;
+}
+
+.somos{
+    color: #4998ff;
+    font-weight: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    width: 40%;
+    margin-left: 400px;
+    padding: 0;
+}
+
+.nosotros{
+    display: block;
+    flex: auto;
+    background: #4998ff;
+    color: white;
+    text-align: center;
+}
+
+.somos{
+    display: block;
+    flex: auto;
+    background: rgb(102, 164, 236);
+    color: white;
+    text-align: center; 
+}
+
 
 .subtitulo{
     color: rgb(102, 164, 236);
@@ -376,19 +420,19 @@ footer{
         width: 90%;
     }
 
-    .social-media{
-        width: 100%;
-        justify-content: space-evenly;
-    }
-
-    .social-media-icon{
-        margin-left: 0;
-    }
-
     .contact-us{
         text-align: center;
         width: 95%;
         margin-bottom: 40px;
+    }
+
+    .nosotros{
+        width: 80%;
+    }
+
+    .somos{
+        width: 40%;
+       margin-left: 130px;
     }
     
 }
